@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banners List</title>
+</head>
+<body>
+    <form action="" onsubmit="event.preventDefault()" style="margin: 20px;">
+        <input class="img" type="text" placeholder="Insert IMG SRC" style="width: 300px; margin: 5px;" autofocus>
+        <br>
+        <input class="link" type="text" placeholder="Insert URL" style="width: 300px; margin: 5px;">
+        <br>
+        <input type="submit" class="submit" onclick="getFormData()" style="margin: 5px;">
+    </form>
+    <button class="save" style="margin: 5px;">Save Banners</button>
+    <button class="clear">Clear Banners</button>
+    <div id="banners-list"></div>
+    <script src="script.js"></script>
+</body>
+</html>
